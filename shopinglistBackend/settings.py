@@ -26,6 +26,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 CORS_ALLOW_ALL_ORIGINS = True
+CSRF_TRUSTED_ORIGINS = ['https://shopinglistbackend.onrender.com']
 
 # Application definition
 
